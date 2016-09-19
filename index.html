@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="text/css">
+    <title>TCP/UDP_Generator_of_Packages</title>
+    <link href="style/earlyWindow.css" rel="stylesheet">
+</head>
+<body>
+<section id="generalWindow">
+    <div class="generalWindow">
+        <!--заголовок-->
+        <div class="Name">Генератор TCP/UDP пакетов</div>
+        <div class="PortAndIP">
+
+            <!--отправитель-->
+            <div class="sender">
+                <span class="senderIP">
+                    <input type="text" size="20">
+                </span>
+                <span class="senderPort">
+                    <input type="text" size="10">
+                </span>
+            </div>
+            <!--получатель-->
+            <div class="receiver">
+                <span class="receiverIP">
+                    <input type="text" size="20">
+                </span>
+                <span class="receiverPort">
+                    <input type="text" size="10">
+                </span>
+            </div>
+
+            <!--данные для перевода-->
+            <div class="messages">
+                <textarea class="message" maxlength="2000" placeholder="Type something..."></textarea>
+            </div>
+
+            <!--выбор протокола-->
+            <div class="radio">
+                <input id="TCP" type="radio" value="TCP">
+                <label for="TCP">TCP</label>
+                <input id="UDP" type="radio" value="UDP">
+                <label for="UDP">UDP</label>
+            </div>
+
+            <!--кнопка отправки-->
+            <div class="buttonSend">
+                <input id="button" type="button" value="отправить">
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
