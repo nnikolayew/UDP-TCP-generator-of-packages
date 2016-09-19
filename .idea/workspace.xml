@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e275cd69-aa9a-44b6-9fb9-90d49e702f7e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/earlyWindow.css" afterPath="$PROJECT_DIR$/style/earlyWindow.css" />
     </list>
     <ignored path="untitled3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -214,7 +212,7 @@
       <updated>1474198110683</updated>
       <workItem from="1474198116181" duration="1601000" />
       <workItem from="1474212071703" duration="4398000" />
-      <workItem from="1474241569633" duration="12640000" />
+      <workItem from="1474241569633" duration="12678000" />
     </task>
     <task id="LOCAL-00001" summary="Наброска элементов интерфейса">
       <created>1474245877695</created>
@@ -230,11 +228,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474246309857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Редактирование элементов GUI">
+      <created>1474275976100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474275976100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18639000" />
+    <option name="totallyTimeSpent" value="18677000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +304,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Наброска элементов интерфейса" />
-    <option name="LAST_COMMIT_MESSAGE" value="Наброска элементов интерфейса" />
+    <MESSAGE value="Редактирование элементов GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Редактирование элементов GUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
