@@ -6,51 +6,50 @@
     <link href="style/earlyWindow.css" rel="stylesheet">
 </head>
 <body>
-<section id="generalWindow">
+<div class="window">
+    <!--заголовок-->
+    <div class="header">Генератор TCP/UDP пакетов</div>
     <div class="generalWindow">
-        <!--заголовок-->
-        <div class="Name">Генератор TCP/UDP пакетов</div>
-        <div class="PortAndIP">
-
+        <!--окна для ввода IP и портов-->
+        <div class="portAndIP">
             <!--отправитель-->
             <div class="sender">
-                <span class="senderIP">
-                    <input type="text" size="20">
-                </span>
-                <span class="senderPort">
-                    <input type="text" size="10">
-                </span>
+                <div class="ip">
+                    <input type="text" class="ipValue" size="20" value="IP отправителя">
+                </div>
+                <div class="port">
+                    <input type="text" class="portValue" size="10" value="Port">
+                </div>
             </div>
             <!--получатель-->
             <div class="receiver">
-                <span class="receiverIP">
-                    <input type="text" size="20">
+                <span class="ip">
+                    <input type="text" class="ipValue" value="IP получателя">
                 </span>
-                <span class="receiverPort">
-                    <input type="text" size="10">
+                <span class="port">
+                    <input type="text" class="portValue" value="Port">
                 </span>
-            </div>
-
-            <!--данные для перевода-->
-            <div class="messages">
-                <textarea class="message" maxlength="2000" placeholder="Type something..."></textarea>
-            </div>
-
-            <!--выбор протокола-->
-            <div class="radio">
-                <input id="TCP" type="radio" value="TCP">
-                <label for="TCP">TCP</label>
-                <input id="UDP" type="radio" value="UDP">
-                <label for="UDP">UDP</label>
-            </div>
-
-            <!--кнопка отправки-->
-            <div class="buttonSend">
-                <input id="button" type="button" value="отправить">
             </div>
         </div>
+        <!--данные для перевода-->
+        <div class="messages">
+            <textarea class="message" maxlength="2000" placeholder="Type something..."></textarea>
+        </div>
+
+        <!--выбор протокола-->
+        <div class="radio">
+            <input id="TCP" type="radio" value="TCP">
+            <label for="TCP">TCP</label>
+            <input id="UDP" type="radio" value="UDP">
+            <label for="UDP">UDP</label>
+        </div>
+
+        <!--кнопка отправки-->
+        <div class="buttonSend">
+            <input id="button" type="button" value="отправить">
+        </div>
     </div>
-</section>
+</div>
 
 </body>
 </html>
