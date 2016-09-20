@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="earlyWindow.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="earlyWindow.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/earlyWindow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="-21">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -215,7 +215,7 @@
       <workItem from="1474198116181" duration="1601000" />
       <workItem from="1474212071703" duration="4398000" />
       <workItem from="1474241569633" duration="15191000" />
-      <workItem from="1474387741774" duration="9962000" />
+      <workItem from="1474387741774" duration="13834000" />
     </task>
     <task id="LOCAL-00001" summary="Наброска элементов интерфейса">
       <created>1474245877695</created>
@@ -245,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474275987774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Выравнивание элементов GUI">
+      <created>1474402162034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474402162034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31152000" />
+    <option name="totallyTimeSpent" value="35024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -315,7 +322,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Наброска элементов интерфейса" />
     <MESSAGE value="Редактирование элементов GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Редактирование элементов GUI" />
+    <MESSAGE value="Выравнивание элементов GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выравнивание элементов GUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -372,18 +380,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/window.html" />
     <entry file="file://$PROJECT_DIR$/js/launch.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/style/earlyWindow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="-21">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/earlyWindow.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding />
         </state>
       </provider>
