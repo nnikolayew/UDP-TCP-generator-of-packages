@@ -7,28 +7,22 @@
 </head>
 <body>
 <div class="window">
-    <!--заголовок-->
-    <div class="header">Генератор TCP/UDP пакетов</div>
     <div class="generalWindow">
         <!--окна для ввода IP и портов-->
         <div class="portAndIP">
             <!--отправитель-->
-            <div class="sender">
-                <div class="ip">
-                    <input type="text" class="ipValue" size="20" value="IP отправителя">
-                </div>
-                <div class="port">
-                    <input type="text" class="portValue" size="10" value="Port">
-                </div>
+            <div class="ip">
+                <input type="text" class="ipValue" size="20" placeholder="IP отправителя">
+            </div>
+            <div class="port">
+                <input type="text" class="portValue" size="10" placeholder="Port">
             </div>
             <!--получатель-->
-            <div class="receiver">
-                <span class="ip">
-                    <input type="text" class="ipValue" value="IP получателя">
-                </span>
-                <span class="port">
-                    <input type="text" class="portValue" value="Port">
-                </span>
+            <div class="ip">
+                <input type="text" class="ipValue" placeholder="IP получателя">
+            </div>
+            <div class="port">
+                <input type="text" class="portValue" placeholder="Port">
             </div>
         </div>
         <!--данные для перевода-->
@@ -38,16 +32,15 @@
 
         <!--выбор протокола-->
         <div class="radio">
-            <input id="TCP" type="radio" value="TCP">
-            <label for="TCP">TCP</label>
-            <input id="UDP" type="radio" value="UDP">
-            <label for="UDP">UDP</label>
+            <input type="checkbox" id="payt4"/>
+            <label for="payt4"></label>
         </div>
 
         <!--кнопка отправки-->
         <div class="buttonSend">
             <input id="button" type="button" value="отправить">
         </div>
+
     </div>
 </div>
 

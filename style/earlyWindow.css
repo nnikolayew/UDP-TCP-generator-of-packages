@@ -1,27 +1,21 @@
-.window{
+body{
+    margin: 0px auto;
     width: 300px;
     height: 500px;
 }
-.header{
-    color: #777;
-    text-align: center;
-    font-size: 20px;
-    border-bottom: 1px solid #dfdfdf;
+.window{
+    width: 100%;
+    height: 100%;
 }
 .generalWindow{
     width: 90%;
     height: 90%;
-    margin: 5%;
+    margin: 0% 5%;
 }
 .portAndIP{
     width: 100%;
-    height: 35%;
+    height: 20%;
     line-height: 2.5;
-}
-.sender{
-    display: inline-block;
-    width: 100%;
-    height: 50%;
 }
 .ip{
     width: 75%;
@@ -31,6 +25,12 @@
 }
 .ipValue{
     font-size: 15px;
+    width: 95%;
+    border: 1px solid #777777;
+    text-align: center;
+    color:#a9a9a9;
+    font-family: monospace;
+    margin: 5% 0%;
 }
 .port{
     width: 25%;
@@ -40,9 +40,60 @@
 }
 .portValue{
     font-size: 15px;
-}
-.receiver{
-    display: inline-block;
     width: 100%;
-    height: 50%;
+    border: 1px solid #777777;
+    text-align: center;
+    color:#a9a9a9;
+    font-family: monospace;
+    margin: 15% 0%;
+}
+
+.messages{
+    width: 100%;
+    height: 10%;
+}
+.message{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 0px;
+    border-color: #777777;
+}
+
+.radio{
+    width: 100%;
+    height: 10%;
+    margin: 5% 0%;
+}
+
+#payt4 {
+    display: none;
+
+}
+[for="payt4"] {
+    display: inline-block;
+    background: rgba(0, 0, 0, .1);
+    width: 100%;
+}
+[for="payt4"]:before, [for="payt4"]:after {
+    display: inline-block;
+    padding: 5px 47px;
+}
+[for="payt4"]:before {
+    content: "ВЫКЛ";
+    background: rgba(0, 0, 0, .3) linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0));
+    color: rgba(0,0,0,.4);
+    width: 18%;
+}
+[for="payt4"]:after {
+    content: "ВКЛ";
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.3));
+}
+#payt4:checked ~ [for="payt4"]:after {
+    background: rgba(0, 0, 0, .3) linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0));
+    color: rgba(0,0,0,.4);
+}
+#payt4:checked ~ [for="payt4"]:before {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.3));
+    color: inherit;
 }
