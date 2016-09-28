@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e275cd69-aa9a-44b6-9fb9-90d49e702f7e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/earlyWindow.css" afterPath="$PROJECT_DIR$/style/earlyWindow.css" />
     </list>
     <ignored path="untitled3.iws" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="earlyWindow.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/earlyWindow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="421">
+              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -218,7 +217,7 @@
       <workItem from="1474387741774" duration="14136000" />
       <workItem from="1474447656264" duration="2663000" />
       <workItem from="1474548580531" duration="269000" />
-      <workItem from="1475083489699" duration="2375000" />
+      <workItem from="1475083489699" duration="2477000" />
     </task>
     <task id="LOCAL-00001" summary="Наброска элементов интерфейса">
       <created>1474245877695</created>
@@ -262,11 +261,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474410788706</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Доработка первого окна GUI">
+      <created>1475085900078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1475085900078</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40633000" />
+    <option name="totallyTimeSpent" value="40735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +340,8 @@
     <MESSAGE value="Редактирование элементов GUI" />
     <MESSAGE value="Выравнивание элементов GUI" />
     <MESSAGE value="Выравнивание элементов GUI(2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выравнивание элементов GUI(2)" />
+    <MESSAGE value="Доработка первого окна GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка первого окна GUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -449,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/earlyWindow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="421">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
           <folding />
         </state>
       </provider>
