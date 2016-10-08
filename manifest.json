@@ -1,0 +1,21 @@
+{
+  "sockets": {
+    "tcp": { "connect" : "" },
+    "tcpServer": { "listen": "" },
+    "udp": { "send": "", "bind": "" }
+  },
+  "permissions": [
+    "system.network"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "js/launch.js"
+      ]
+    }
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "name": "Generator",
+  "version": "0.1"
+}
