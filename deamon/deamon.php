@@ -95,7 +95,7 @@ function sendTcpPacket($query)
     socket_sendto(
         $rawSocket,
         $ip . $tcp . $query['data'],
-        (20 + 20 + strlen($query['data'])),
+        (strlen($ip) + strlen($tcp) + strlen($query['data'])),
         0,
         long2ip($query['dip']), $query['dport']);
     if (socket_last_error()) {

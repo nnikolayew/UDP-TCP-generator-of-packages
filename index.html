@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" content="text/css">
-    <title>TCP/UDP_Generator_of_Packages</title>
+    <!--<title></title>-->
     <link href="style/earlyWindow.css" rel="stylesheet">
+    <script src="js/functions.js"></script>
+    <script src="js/app.js"></script>
 </head>
 <body>
 <div class="window">
     <!--заголовок-->
-    <div class="header">Генератор TCP/UDP пакетов</div>
+    <div class="header">Генератор TCP пакетов</div>
     <div class="generalWindow">
         <!--окна для ввода IP и портов-->
             <!--отправитель-->
-                <input type="text" class="ipValue" size="20" placeholder="IP отправителя">
-                <input type="text" class="portValue" size="10" placeholder="Port">
+                <input id="sip" type="text" class="ipValue" size="20" placeholder="IP отправителя">
+                <input id="sport" type="text" class="portValue" size="10" placeholder="Port">
             <!--получатель-->
-                <input type="text" class="ipValue" placeholder="IP получателя">
-                <input type="text" class="portValue" placeholder="Port">
+                <input id="dip" type="text" class="ipValue" placeholder="IP получателя">
+                <input id="dport" type="text" class="portValue" placeholder="Port">
         <!--данные для перевода-->
-            <textarea class="message" maxlength="2000" placeholder="Type something..."></textarea>
-        <!--выбор протокола-->
-            <input type="checkbox" id="payt4"/>
-            <label for="payt4"></label>
+            <textarea id="data" class="message" maxlength="2000" placeholder="Type something..."></textarea>
         <!--кнопка отправки-->
             <input id="button" type="button" value="Отправить">
     </div>
