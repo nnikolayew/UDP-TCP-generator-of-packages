@@ -14,13 +14,13 @@
     <div class="generalWindow">
         <!--окна для ввода IP и портов-->
             <!--отправитель-->
-                <input id="sip" type="text" class="ipValue" size="20" placeholder="IP отправителя">
-                <input id="sport" type="text" class="portValue" size="10" placeholder="Port">
+                <input id="sip" value="127.0.0.1" type="text" class="ipValue" size="20" placeholder="IP отправителя">
+                <input id="sport" type="text" value="7777" class="portValue" size="10" placeholder="Port">
             <!--получатель-->
-                <input id="dip" type="text" class="ipValue" placeholder="IP получателя">
-                <input id="dport" type="text" class="portValue" placeholder="Port">
+                <input id="dip" type="text" value="127.0.0.1" class="ipValue" placeholder="IP получателя">
+                <input id="dport" type="text" value="8888" class="portValue" placeholder="Port">
         <!--данные для перевода-->
-            <textarea id="data" class="message" maxlength="2000" placeholder="Type something..."></textarea>
+            <textarea id="data" class="message" maxlength="2000" placeholder="Type something...">hello</textarea>
         <!--кнопка отправки-->
             <input id="button" type="button" value="Отправить">
     </div>

@@ -2,6 +2,9 @@
 $serverSocket = socket_create(AF_INET, SOCK_STREAM, 0);
 socket_bind($serverSocket, '0.0.0.0', 9091);
 socket_listen($serverSocket, 3);
+if (socket_last_error()) {
+    echo "server_create: " . socket_strerror(socket_last_error()) . PHP_EOL;
+}
 
 $rawSocket = socket_create(AF_INET, SOCK_RAW, 255);
 if (socket_last_error()) {
@@ -17,12 +20,15 @@ while (true) {
 
     socket_recv($querySocket, $data, $query['size'], MSG_WAITALL);
     $query['data'] = $data;
-    sendTcpPacket($query);
+    print long2ip($query['sip']);
+    print long2ip($query['dip']);
+    print_r($query);
+    sendTcpPacket($query, $querySocket);
 
     socket_close($querySocket);
 }
 
-function sendTcpPacket($query)
+function sendTcpPacket($query, $socket)
 {
     global $rawSocket;
 
@@ -100,6 +106,10 @@ function sendTcpPacket($query)
         long2ip($query['dip']), $query['dport']);
     if (socket_last_error()) {
         echo "raw_send: " . socket_strerror(socket_last_error()) . PHP_EOL;
+        socket_send($socket, socket_strerror(socket_last_error()), strlen(socket_strerror(socket_last_error())),
+            0);
+    } else {
+        socket_send($socket, 'ok', 2, 0);
     }
 }
 
